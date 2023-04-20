@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Assets/Prociono.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Funeral/Funeral2.gd" type="Script" id=2]
 [ext_resource path="res://Assets/IMG_0703.PNG" type="Texture" id=3]
+[ext_resource path="res://Assets/Funeral Music.mp3" type="AudioStream" id=4]
 
 [sub_resource type="DynamicFont" id=1]
 size = 25
@@ -39,6 +40,9 @@ margin_right = 70.0
 margin_bottom = 40.0
 custom_fonts/font = SubResource( 2 )
 text = "Quit"
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
 
 [connection signal="pressed" from="Cont" to="." method="_on_Cont_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Funeral Music.mp3-fc2e4823d0ef8a09a83b2d13aed2aba0.mp3str"
+
+[deps]
+
+source_file="res://Assets/Funeral Music.mp3"
+dest_files=[ "res://.import/Funeral Music.mp3-fc2e4823d0ef8a09a83b2d13aed2aba0.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

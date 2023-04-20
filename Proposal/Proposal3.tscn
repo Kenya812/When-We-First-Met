@@ -1,10 +1,11 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://Proposal/Proposal3.gd" type="Script" id=1]
 [ext_resource path="res://Assets/Prociono.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Assets/vecteezy_speech-bubble-talk-bubble-chat-bubble-icon-png-transparent_9663919_300.png" type="Texture" id=3]
 [ext_resource path="res://Assets/9a4fbe792e3bb077b1919a0212dd5f71.jpeg" type="Texture" id=4]
 [ext_resource path="res://Assets/IMG_0700.PNG" type="Texture" id=5]
+[ext_resource path="res://Assets/Wedding Music.mp3" type="AudioStream" id=6]
 
 [sub_resource type="DynamicFont" id=1]
 size = 25
@@ -68,6 +69,9 @@ text = "          *You gasp*
 
 “Oh my gosh! Yes! Yes
 of course I’ll marry you!”"
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
 
 [connection signal="pressed" from="Cont" to="." method="_on_Cont_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]

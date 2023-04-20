@@ -2,7 +2,7 @@ extends Node2D
 
 
 func _ready():
-	pass
+	$Music.play(Global.playback)
 
 
 func _on_Cont_pressed():

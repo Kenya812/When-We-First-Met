@@ -1,10 +1,11 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://First/First4.gd" type="Script" id=1]
 [ext_resource path="res://Assets/Prociono.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Assets/vecteezy_speech-bubble-talk-bubble-chat-bubble-icon-png-transparent_9663919_300.png" type="Texture" id=3]
 [ext_resource path="res://Assets/360_F_567986654_Erj7bztGXlKmaZ6sGoa4Y68loucSMDE1.jpeg" type="Texture" id=4]
 [ext_resource path="res://Assets/IMG_0696.PNG" type="Texture" id=5]
+[ext_resource path="res://Assets/Awkward Jazz.mp3" type="AudioStream" id=6]
 
 [sub_resource type="DynamicFont" id=1]
 size = 25
@@ -92,6 +93,9 @@ and pillars, and especially how they
 loved having such intricate
 carvings in everything and….
 I’m rambling again. Sorry.”"
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
 
 [connection signal="pressed" from="Cont" to="." method="_on_Cont_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]

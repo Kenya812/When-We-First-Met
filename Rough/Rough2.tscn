@@ -1,10 +1,11 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://Rough/Rough2.gd" type="Script" id=1]
 [ext_resource path="res://Assets/Prociono.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Assets/IMG_0706.JPG" type="Texture" id=3]
 [ext_resource path="res://Assets/IMG_0701.PNG" type="Texture" id=4]
 [ext_resource path="res://Assets/vecteezy_speech-bubble-talk-bubble-chat-bubble-icon-png-transparent_9663919_300.png" type="Texture" id=5]
+[ext_resource path="res://Assets/Rough Patch.mp3" type="AudioStream" id=6]
 
 [sub_resource type="DynamicFont" id=1]
 size = 25
@@ -69,6 +70,9 @@ My life! You are asking me to
 abandon everything I know to
 move across the country with you
 on a chance that you might get a job!”"
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
 
 [connection signal="pressed" from="Cont" to="." method="_on_Cont_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]

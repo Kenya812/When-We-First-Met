@@ -1,9 +1,10 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Assets/Prociono.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Menu/Main Menu.gd" type="Script" id=2]
 [ext_resource path="res://Assets/Barista.PNG" type="Texture" id=3]
 [ext_resource path="res://Assets/IMG_0702.PNG" type="Texture" id=4]
+[ext_resource path="res://Assets/Theme Song.mp3" type="AudioStream" id=5]
 
 [sub_resource type="DynamicFont" id=1]
 size = 50
@@ -61,6 +62,10 @@ position = Vector2( 872, 367 )
 scale = Vector2( 0.075, 0.075 )
 texture = ExtResource( 4 )
 flip_h = true
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+autoplay = true
 
 [connection signal="pressed" from="Play" to="." method="_on_Play_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]

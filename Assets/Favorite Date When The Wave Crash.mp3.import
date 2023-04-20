@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Favorite Date When The Wave Crash.mp3-a8c4d2c7ee1ce1af94caa28857a02d21.mp3str"
+
+[deps]
+
+source_file="res://Assets/Favorite Date When The Wave Crash.mp3"
+dest_files=[ "res://.import/Favorite Date When The Wave Crash.mp3-a8c4d2c7ee1ce1af94caa28857a02d21.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

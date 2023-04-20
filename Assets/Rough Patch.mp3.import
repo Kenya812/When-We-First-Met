@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Rough Patch.mp3-9eef706c254589aa2306d293e3def254.mp3str"
+
+[deps]
+
+source_file="res://Assets/Rough Patch.mp3"
+dest_files=[ "res://.import/Rough Patch.mp3-9eef706c254589aa2306d293e3def254.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

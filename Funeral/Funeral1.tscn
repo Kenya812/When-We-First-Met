@@ -1,9 +1,10 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Funeral/Funeral1.gd" type="Script" id=1]
 [ext_resource path="res://Assets/Prociono.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Assets/IMG_0703.PNG" type="Texture" id=3]
 [ext_resource path="res://Assets/vecteezy_speech-bubble-talk-bubble-chat-bubble-icon-png-transparent_9663919_300.png" type="Texture" id=4]
+[ext_resource path="res://Assets/Funeral Music.mp3" type="AudioStream" id=5]
 
 [sub_resource type="DynamicFont" id=1]
 size = 25
@@ -62,6 +63,10 @@ I will miss you dearly.
 Thank you for all the
 wonderful memories you
 have given me over the years.”"
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+autoplay = true
 
 [connection signal="pressed" from="Cont" to="." method="_on_Cont_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]

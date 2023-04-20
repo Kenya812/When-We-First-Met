@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Awkward Jazz.mp3-e82d84c08a618c7b6bd039960a6a9002.mp3str"
+
+[deps]
+
+source_file="res://Assets/Awkward Jazz.mp3"
+dest_files=[ "res://.import/Awkward Jazz.mp3-e82d84c08a618c7b6bd039960a6a9002.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
