@@ -9,7 +9,7 @@ Objective: Go through the memories of your husband
 Game-play instructions: You can click the contiune button to go through the memories and click the quit button when you want to stop
 
 ## Impediments
-Struggles where coding and coming up with 7 all compose songs
+Struggles were coding and composing all 7 songs
 
 ## Implementation
 Custom art, custom music, storyline
